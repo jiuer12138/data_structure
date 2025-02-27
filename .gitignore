@@ -1,0 +1,23 @@
+# 忽略编译生成的文件
+*.out
+*.exe
+*.o
+*.a
+*.so
+
+# 忽略编译时临时文件
+*.d
+
+# 忽略 IDE 生成的文件（例如 VSCode 或 CLion）
+.vscode/
+.idea/
+
+# 忽略操作系统生成的文件（如 macOS 或 Windows）
+.DS_Store
+Thumbs.db
+
+# 忽略其他工具生成的文件
+*.log
+*.tmp
+# 忽略 CMake 构建目录
+/cmake-build-debug/
