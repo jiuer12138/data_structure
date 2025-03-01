@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "seq_list.h"
 #include "link_list.h"
+#include "doubly_linked_list.h"
 
 int main(void) {
     // 顺序表
@@ -22,7 +23,7 @@ int main(void) {
 //    IncreaseSize(&dynamicSeqList,10);
 //    PrintDynamicSeqList(&dynamicSeqList);
     // 单链表带头节点
-    LinkList L;
+//    LinkList L;
 //    List_HeadInsert(&L);
 //    InitLinkList(&L);  // 初始化带头指针链表
 //    bool res = Empty(L);
@@ -32,11 +33,11 @@ int main(void) {
 //    InsertList(&L, 3, 5);
 //    bool res1 = Empty(L);
 //    printf("带头节点链表是否为空 %d \n", res1);
-    PintLinkList(L);
+//    PintLinkList(L);
     // 单链表 不带头节点
-    LinkList L1;
+//    LinkList L1;
 //    List_TailInsert1(&L1);
-    List_HeadInsert1(&L1);
+//    List_HeadInsert1(&L1);
 //    InitLinkList1(&L1);
 //    bool res2 = Empty1(L1);
 //    printf("不带头节点链表是否为空 %d \n", res2);
@@ -45,6 +46,15 @@ int main(void) {
 //    InsertList1(&L1, 3, 50);
 //    bool res4 = Empty1(L1);
 //    printf("不带头节点链表是否为空 %d \n", res4);
-    PintLinkList1(L1);
+//    PintLinkList1(L1);
+    // 双链表带头节点
+//    DLinkList D;
+//    InitDLinkList(&D);
+    // 双链表不带头节点
+//    DLinkList D1;
+//    InitDLinkList1(&D1);
+
+//    TestInsertDLinkList();
+    TestDeleteDLinkList();
     return 0;
 }

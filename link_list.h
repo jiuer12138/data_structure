@@ -9,7 +9,7 @@ typedef int ElemType; // 定义数据类型为 int
 typedef struct LNode {
     ElemType data;      // 存储数据
     struct LNode *next; // 指向下一个节点
-} LNode, *LinkList;    // LNode 是结构体类型，LinkList 是指向 LNode 的指针类型Ï
+} LNode, *LinkList;    // LNode 是结构体类型，LinkList 是指向 LNode 的指针类型
 
 bool InitLinkList(LinkList *L);
 
