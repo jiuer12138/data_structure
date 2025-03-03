@@ -2,6 +2,7 @@
 #include "seq_list.h"
 #include "link_list.h"
 #include "doubly_linked_list.h"
+#include "stack.h"
 
 int main(void) {
     // 顺序表
@@ -55,6 +56,8 @@ int main(void) {
 //    InitDLinkList1(&D1);
 
 //    TestInsertDLinkList();
-    TestDeleteDLinkList();
+//    TestDeleteDLinkList();
+//    TestStack();
+    TestLinkStack();
     return 0;
 }

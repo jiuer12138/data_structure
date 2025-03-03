@@ -9,4 +9,6 @@ add_executable(DataStructureDemo main.c
         link_list.c
         link_list.h
         doubly_linked_list.c
-        doubly_linked_list.h)
+        doubly_linked_list.h
+        stack.c
+        stack.h)
