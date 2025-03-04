@@ -3,6 +3,7 @@
 #include "link_list.h"
 #include "doubly_linked_list.h"
 #include "stack.h"
+#include "queue.h"
 
 int main(void) {
     // 顺序表
@@ -58,6 +59,7 @@ int main(void) {
 //    TestInsertDLinkList();
 //    TestDeleteDLinkList();
 //    TestStack();
-    TestLinkStack();
+//    TestLinkStack();
+//    TestQueue();
     return 0;
 }
